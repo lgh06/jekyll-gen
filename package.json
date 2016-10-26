@@ -1,7 +1,7 @@
 {
   "name": "jekyll-gen",
   "version": "1.0.2",
-  "description": "",
+  "description": "A terminal jekyll post generator, written in Node.",
   "main": "index.js",
   "bin": {
     "jg": "index.js"
@@ -13,7 +13,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["jekyll","generator"],
   "author": "Gehuan Liu <liugehuan@hotmail.com> (http://blog.hapleo.com)",
   "license": "ISC",
   "dependencies": {

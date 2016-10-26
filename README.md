@@ -1,4 +1,5 @@
-#### A terminal jekyll post generator, written in Node.
+#### Intro  
+A terminal jekyll post generator, written in Node.
 
 #### Install  
 ```
