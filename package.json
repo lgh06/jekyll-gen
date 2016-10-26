@@ -6,6 +6,10 @@
   "bin": {
     "jg": "index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgh06/jekyll-gen.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
