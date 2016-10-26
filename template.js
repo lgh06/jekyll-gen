@@ -1,9 +1,9 @@
-var tpl = (title,now)=>
+var tpl = (title,now,categories)=>
 `---
 layout: post
 title:  "${title}"
 date:   ${now} +0800
-categories: jekyll update
+categories: ${categories}
 ---`;
 
 module.exports = tpl;
