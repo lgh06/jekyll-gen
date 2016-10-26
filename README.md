@@ -16,4 +16,4 @@ jg
     -t, --title [title]
 
     -c, --categories <categories>  
-    Add categories, add **,** to multiple words, no space
+    Add categories, add , to multiple words, no space
