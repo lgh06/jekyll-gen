@@ -32,12 +32,12 @@ const title = program.title || '来吧 来吧 相约98'; //if no -t option,defau
 
 const cat = program.categories?program.categories.join(' '):'test';
 
-const data = tpl(title,now,cat);
+const data = tpl(title,now.full,cat);
 console.log(data)
 
 
 
-fs.writeFile('message.txt', data, (err) => {
+fs.writeFile(now.short+'.md', data, (err) => {
   if (err) throw err;
   console.log('File is saved!');
 });
